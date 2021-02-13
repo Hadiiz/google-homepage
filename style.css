@@ -1,0 +1,100 @@
+/* NAV */
+
+nav{
+    width: 100%;
+    /* border:1px solid green; */
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    margin-top: 10px;
+
+}
+#dots{
+    height: 25px;
+}
+#pika{
+    margin-top: -5px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+}
+li{
+    margin-right: 20px;;
+    margin-top: 10px;
+}
+/* MAIN */
+
+#main-section{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo-div{
+    width: 100%;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+#search-bar-div{
+    width: 100%;
+}
+#search{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 577px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    height: 42px;
+}
+#search-icon{
+    margin-top: 14px;
+    margin-right: 10px;
+    margin-left: 15px;
+    /* border: 1px solid black; */
+    height: 16px;
+}
+#search-bar{
+    width:100%;
+    border: none;
+    font-size: 16px;
+}
+
+#mic-icon{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;;
+    height: 20px;
+}
+#buttons-div{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+#buttons{
+    margin-top: 30px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #3c4043;;
+    border: none;
+    border-radius: 2px;
+    padding: 0;
+    width: 133px;
+    height: 35px;
+    margin-right: 5px;
+}
